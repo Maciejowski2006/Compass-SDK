@@ -3,6 +3,8 @@
 
 You can download Compass Tools.unitypackage, this is AiO unity package which contains all tools, but you can download tools separatly, depending on what you need.
 
+All the tools will have support, and if we make other, they will be here as fast as possible. 
+
 What you can do and can't do:
 1. You can use this tools, but you CAN'T mark it as yours.
 2. You can edit this tools, but you CAN't mark it as yours.
