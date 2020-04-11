@@ -14,6 +14,10 @@ public class SceneTools : EditorWindow
     void OnGUI()
     {
         EditorGUILayout.BeginHorizontal();
+        if (GUILayout.Button("Splash") && EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
+        {
+            EditorSceneManager.OpenScene("Assets/Scenes/Splash.unity", OpenSceneMode.Single);
+        }
         if (GUILayout.Button("Main Menu") && EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
         {            
             EditorSceneManager.OpenScene("Assets/Scenes/Main.unity", OpenSceneMode.Single);
@@ -25,5 +29,4 @@ public class SceneTools : EditorWindow
         }
         EditorGUILayout.EndHorizontal();
     }
-
 }
